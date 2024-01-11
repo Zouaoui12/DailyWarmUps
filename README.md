@@ -25,7 +25,7 @@ the repo with main. Git won't automatically pull in upstream changes for
 you; it trusts that you'll pull them in as needed. Do so by giving Git a reference
 to MakerSquare's version of the repo:
 
-    git remote add upstream https://github.com/jalyss/dailyWarmup.git
+    git remote add upstream https://github.com/Sfectoria-FullStack/DailyWarmUps.git
 
 After you've done that, updating your repo is as simple as running the following:
 
