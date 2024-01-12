@@ -28,7 +28,7 @@ function scoreToGrade(score){
     } 
         
     }
-}
+
 /**
  * Repeating a String n Times: Let's write a function called repeatString that takes two parameters: a string str, which is the string to be repeated, and count -- a number representing how many times the string str should be repeated
  * repeatString('dog', 0); // => ''
@@ -36,8 +36,8 @@ function scoreToGrade(score){
  * repeatString('dog', 2); // => 'dog' + 'dog' => 'dogdog'
  * repeatString('dog', 3); // => 'dog' + 'dog' + 'dog' => 'dogdogdog'
  */
-function repeatString(string, num) { if (condition) {
-    
+function repeatString(string, num) { 
+    return string.repeat(num)
 }
   
-} 
+ 
