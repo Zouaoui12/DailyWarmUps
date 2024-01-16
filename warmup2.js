@@ -20,6 +20,8 @@ function scoreToGrade(score){
  * repeatString('dog', 2); // => 'dog' + 'dog' => 'dogdog'
  * repeatString('dog', 3); // => 'dog' + 'dog' + 'dog' => 'dogdogdog'
  */
+
+
 function repeatString(string, num) {
   
 } 
