@@ -11,8 +11,16 @@
  * @return {string}
  */
 
-function helloWorld(str){
+function helloWorld(str){    if ("fr") {return "bonjour tout le monde "
+    
+} 
+if ("es") {return "hola,mondo"
+    
+} else return "hello,word"
+    
 }
+
+
 
 
 /**
@@ -26,6 +34,13 @@ function helloWorld(str){
 
 
 function reverseStr(str){
+    let reversed = ""
+    let i = string.length =-1
+      while (i<=0) { result =0
+        i--
+        
+    }
+return result
 }
 
 /**
@@ -38,5 +53,5 @@ function reverseStr(str){
  * @return {string}
  */
 
-function laugh(num){
+function laugh(num){ return "string"===num
 }
