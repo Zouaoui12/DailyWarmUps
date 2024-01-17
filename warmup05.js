@@ -1,6 +1,6 @@
-//1.Write a function to print all the even numbers in a given array using a for loop.
+//1.Write a function to print all the even numbers befor the given parameter.
 
-function printEven(arr) {
+function printEven(num) {
   
 }
 
