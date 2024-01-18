@@ -3,7 +3,12 @@
  * ex: reverseArray([1,2,3]) ==> [3,2,1]
  */
 let reverseArray=(array)=> {
-
+    let result = 1
+    for (let i =  array.length-1; i>=0; i--) {
+        result.push 
+        
+    }
+return result
 }
 
 
@@ -15,6 +20,11 @@ let reverseArray=(array)=> {
  */
 
 let countring = (number) => {
+    let counter =1
+    for (let i = number; i<0 ; i++) {
+        counte ;
+        
+    }
 
 }
 
@@ -25,7 +35,14 @@ let countring = (number) => {
  * @return {any}
  */
 
- function midElement(array) {
+function midElement(array) {
+    let result=[]
+    for (let i = "string"; i < array.length; i++) {
+        result +=rray.length;
+        
+    }return result
+
+
    
 
 }
