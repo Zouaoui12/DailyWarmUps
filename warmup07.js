@@ -6,8 +6,13 @@
  * @return {Array}
  */
 
-let reverseArray = (array ) => {
-
+let reverseArray = (array ) => { 
+    let reversed= []
+    for (let i =  array.length-1; i>=0; i--) {
+       reversed.push(array[i])
+        
+    }
+return reversed
 }
 
 /**
@@ -19,7 +24,11 @@ let reverseArray = (array ) => {
  * @return {Array}
  */
 
-let objKey=(object)=>{
+let objKey=(object)=>{ 
+    
+return 
+
+
    
 }
 
@@ -49,5 +58,13 @@ let objLength=(obj) =>{
  * @return {Array}
  */
 let findAll = function (array, n) {
+    let result=[]
+    for (let i = 0; i < array.length; i++) {
+        if (array[i]===n) {
+           array.push(i)
+        }
+        
+    }return result
+   
   
 };
