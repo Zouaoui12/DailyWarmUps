@@ -24,5 +24,5 @@ function sumOfFirstAndLast(number) {
 //4.Write a function called multiplyBy10NTimes that takes two numbers as parameters and returns the first number multiplied by 10 the amount of times indicated by the second number.
 
 function multiplyBy10NTimes(num, n) {
- 
+    
 } 
