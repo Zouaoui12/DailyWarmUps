@@ -25,8 +25,13 @@ return reversed
  */
 
 let objKey=(object)=>{ 
-    
-return 
+    let result=[]
+    for (const key in object) {
+       result.push(object[key])
+            
+        }return result
+    }
+
 
 
    
@@ -64,7 +69,8 @@ let findAll = function (array, n) {
            array.push(i)
         }
         
-    }return result
+    }
+    return result
    
   
 };
