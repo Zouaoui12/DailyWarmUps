@@ -2,8 +2,8 @@
 
 function printEven(num) {
     let result = 0
-    for (let i = 0 ; i= %num; ; i+=2) {
-       let result += i ;
+    for (let i = 0 ; i<= num;  i+=2) {
+     result += i ;
         
     } 
     return result
