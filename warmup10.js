@@ -6,6 +6,13 @@
 // Note : you can`t use any built-in functions .
 
 function reverseStr(str){
+    let reversed=""
+for (let i= String.lenght-1;i>=0; i-- ) {
+   reverse.push(String)
+    
+}
+   return reverse
+
  } 
 
 
@@ -25,7 +32,7 @@ function reverseStr(str){
  */
 
 let findAll = function (array, n) {
- 
+  
 };
 
 
@@ -40,6 +47,13 @@ let findAll = function (array, n) {
 
 
 function objSort(array){
+    let array=[]
+    for (let key in array) {
+        if (array.o(object, key)) {
+            const element = object[key];
+            
+        }
+    }
 
     
 }
