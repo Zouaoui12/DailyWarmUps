@@ -9,11 +9,11 @@
 
 
 function objSort(array){   
-   obj.array((a,b,c)=> a.id-b.id-c.id)
+   array.sort((a,b,c)=> a.id-b.id-c.id)
     return obj
   }
 
-  
+
     
    
     
