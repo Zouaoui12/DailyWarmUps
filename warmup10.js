@@ -6,9 +6,23 @@
 // Note : you can`t use any built-in functions .
 
 function reverseStr(str){
-    let reversed=""
-for (let i= String.lenght-1;i>=0; i-- ) {
-   reverse.push(String)
+    let output =""
+    let container=[]
+    let word=""
+for ( let i=0; i< String.lenght-1;  i++) {
+    if (i===str.length-1) { 
+        word+=str[i]
+        container.push(word)
+          }
+        else if (str[i] ===" "){
+            container.push(word," ")
+            word=" "
+        }
+        else{
+            word+=str[i]
+        }
+        for( let i=container.length-1; )
+  
     
 }
    return reverse
