@@ -8,7 +8,11 @@
 
 function iterateAndLog(n) {
 
-  // TODO: your work goes here
+  if (n===i%2  ,i>=0) {i++ 
+    alert ("even")
+  }else{
+    alert("odd") 
+  } return 
 
 }
 
@@ -25,7 +29,7 @@ function iterateAndLog(n) {
 
 function fib(number) {
 
-  // TODO: your work goes here
+ 
 
 }
 
@@ -63,3 +67,10 @@ function fib(number) {
 // Change the current book to be the next book to be read
 // Change the next book to be read property to be the first unread book you find in the list of books
 // Booklists and Books might need more methods than that. Try to think of more that might be useful.
+function Class() {
+  let obj{}
+  obj.BookList=BookList,
+  obj.Book=Book
+  return obj
+}
+let BookList=()
